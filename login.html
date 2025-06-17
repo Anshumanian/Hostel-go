@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign up_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-microsoft"></i></a>
+                </div>
+                <span>Register with E-mail</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Enter E-mail">
+                <input type="password" placeholder="Enter Password">
+                <button>Register & Login</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign in</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#" class="icons"><i class="fa-brands fa-microsoft"></i></a>
+                </div>
+                <span>Login with E-mail & Password</span>
+                <input type="email" placeholder="Enter E-mail">
+                <input type="password" placeholder="Enter Password">
+                <a href="#">Forgot password?</a>  
+                <a herf="http://127.0.0.1:5500/index.html"><i></a><button>Sign In</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <img src="pp2.jpg" alt="" class="profile-circle">
+                    <h1>Welcome back to <br> Hostel go</h1>
+                    <p>Sign in with Id & Password</p>
+                    <button class="hidden" id="login">Sign in</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <img src="pp2.jpg" alt="" class="profile-circle">
+                    <h1>Welcome to <br> hostel go</h1>
+                    <p>Sign up to join our communnity for daily updates</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script-reg-log.js"></script>
+</body>
+</html>
